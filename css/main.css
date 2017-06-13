@@ -3,18 +3,31 @@
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
+a{
+    display: block;
+    width: 163px;
+    height: 50px;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+a img {
+  float: left;
+  border-radius: 5px;
+}
 .container{
     width: 100%;
     height: 100%;
 }
-header {
+.bg_top {
     height: 799px;
-    background-image: url(/images/intro-bg.jpg);
+    background-image: url(../images/intro-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 34px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
-
 .text {
     text-align: center;
     color: #fff;
@@ -28,31 +41,32 @@ header {
 .text p{
     font-size: 30px;
 }
-
 .link {
-    text-align: center;
-}
-.link span {
-    font-size: 36px;
-    color: #fff;
-    display: block;
-    float: left;
+    overflow: hidden;
+    margin-left: 260px;
+    margin-bottom: 342px;
 }
 .link a {
-    padding: 0 17px;
+    float: left;
+    margin-left: 36px;
 }
-
-.row {
+#marnone{
+    margin-left: 0px;
+}
+.main_section1{
+    margin-bottom: 100px;
+}
+.main_section2{
+    margin-bottom: 100px;
+}
+.main_section3{
+    margin-bottom: 41px;
+}
+.content {
     width: 1063px;
-    height: 100%;
     margin: auto;
-    padding-bottom: 105px;
+    padding-left: 40px;
 }
-.row2 {
-    width: 1063px;
-    margin: auto;
-}
-
 .text_main {
     width: 491px;
     float: left;
@@ -78,21 +92,61 @@ header {
 .marg {
     margin-top: -25px;
 }
-footer {
-    background-image: url(/images/banner-bg-u146-fr.jpg);
+.bg_bottom {
+    background-image: url(../images/banner-bg-u146-fr.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 531px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
 
 .padd {
-    padding-top: 272px;
+    padding-top: 241px;
+    width: 1063px;
+    position: absolute;
 }
-.padd img {
+.padd a {
     float: right;
-    padding-right: 18px;
+    padding-right: 36px;
 }
-#padnone {
+div .vk {
     padding-right: 0px;
 }
+.tw {
+    background-image: url(../images/u85.png);
+    background-repeat: no-repeat;
+}
+.gl {
+    background-image: url(../images/u80.png);
+    background-repeat: no-repeat;
+}
+.vk {
+    background-image: url(../images/u90.png);
+    background-repeat: no-repeat;
+}
+.tw:hover {
+    background-image: url(../images/u85-r.png);
+}
+.gl:hover {
+    background-image: url(../images/u80-r.png);
+}
+.vk:hover {
+    background-image: url(../images/u90-r.png);
+}
+.padd span {
+    font-size: 36px;
+    color: #fff;
+}
+.bg_main {
+    margin-top: 799px;
+    height: 1320px;
+    background-image: url(../images/bg_main.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
